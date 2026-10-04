@@ -177,7 +177,9 @@ UPI-Transactions-Data-Analysis/
 
 ## Dashboard Preview
 
-![UPI Transactions Dashboard](images/dashboard.png)
+![UPI Transactions Dashboard - Overview](images/Screenshot%202026-10-04%20145550.png)
+
+![UPI Transactions Dashboard - Analysis](images/Screenshot%202026-10-04%20145752.png)
 
 ## Author
 
