@@ -1,8 +1,4 @@
-Absolutely. We should present it as a **complete end-to-end project from the beginning**, not as an upgrade of something that existed before.
 
-Use this README:
-
-```markdown
 # UPI Transactions Data Analysis
 
 An end-to-end UPI transaction analytics project built using **AWS S3, Snowflake, SQL, and Power BI**. The project demonstrates data ingestion, cloud-based storage, SQL processing, and interactive business analysis through Power BI.
@@ -183,15 +179,9 @@ UPI-Transactions-Data-Analysis/
 
 ![UPI Transactions Dashboard](images/dashboard.png)
 
-## Security Note
-
-Do not commit passwords, AWS access keys, Snowflake credentials, MFA details, or sensitive customer/account information to a public GitHub repository.
-
 ## Author
 
 **Manisha Rajan**
 
 Data Analyst | Excel • SQL • Python • Power BI
-```
 
-This version reads like a **proper end-to-end cloud analytics project**, with no reference to a previous Excel/Power BI version.
