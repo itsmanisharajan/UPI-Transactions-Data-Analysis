@@ -1,5 +1,8 @@
-
 # UPI Transactions Data Analysis
+
+![UPI Transactions Dashboard](images/Screenshot%202026-10-04%20145550.png)
+
+**[View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/5e666be0-8750-4e31-abda-2ae93e383644/a62c686bd322038c3bb0?experience=power-bi)**
 
 An end-to-end UPI transaction analytics project built using **AWS S3, Snowflake, SQL, and Power BI**. The project demonstrates data ingestion, cloud-based storage, SQL processing, and interactive business analysis through Power BI.
 
@@ -90,8 +93,8 @@ Storage Integration : UPI_S3_STORAGE_INTEGRATION
 External Stage      : UPI_S3_STAGE
 Database            : UPI_TRANSACTIONS_DB
 Schema              : RAW_DATA
-Raw Table           : UPI_TRANSACTIONS
-Analytics Table     : UPI_TRANSACTIONS_ANALYTICS
+Raw Table            : UPI_TRANSACTIONS
+Analytics Table      : UPI_TRANSACTIONS_ANALYTICS
 ```
 
 ## Data Loading
@@ -138,7 +141,7 @@ The dashboard provides interactive analysis of UPI transactions across different
 - Remaining balance analysis
 - City-wise transaction activity
 - Bank-wise transaction analysis
-- Payment method analysis
+- Payment methods
 - Device-wise transactions
 - Gender and customer demographics
 - Transaction type and status
@@ -170,7 +173,8 @@ UPI-Transactions-Data-Analysis/
 │   └── snowflake_setup.sql
 │
 ├── images/
-│   └── dashboard.png
+│   ├── Screenshot 2026-10-04 145550.png
+│   └── Screenshot 2026-10-04 145752.png
 │
 └── README.md
 ```
@@ -186,4 +190,3 @@ UPI-Transactions-Data-Analysis/
 **Manisha Rajan**
 
 Data Analyst | Excel • SQL • Python • Power BI
-
