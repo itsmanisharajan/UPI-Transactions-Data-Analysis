@@ -6,6 +6,25 @@
 
 An end-to-end UPI transaction analytics project built using **AWS S3, Snowflake, SQL, and Power BI**. The project demonstrates data ingestion, cloud-based storage, SQL processing, and interactive business analysis through Power BI.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Flow](#data-flow)
+- [Technologies Used](#technologies-used)
+- [AWS S3](#aws-s3)
+- [Snowflake](#snowflake)
+  - [Database Structure](#database-structure)
+  - [Raw Table](#raw-table)
+  - [Analytics Table](#analytics-table)
+  - [Snowflake Objects](#snowflake-objects)
+- [Data Loading](#data-loading)
+- [Power BI](#power-bi)
+  - [Analysis Covered](#analysis-covered)
+- [Key Learning Outcomes](#key-learning-outcomes)
+- [Repository Structure](#repository-structure)
+- [Dashboard Preview](#dashboard-preview)
+- [Author](#author)
+
 ## Project Overview
 
 This project analyzes UPI transaction data to identify transaction trends, payment patterns, customer behavior, bank-wise activity, and other business insights.
@@ -163,21 +182,11 @@ Interactive slicers and visualizations allow users to explore the transaction da
 
 ## Repository Structure
 
-```text
-UPI-Transactions-Data-Analysis/
-│
-├── powerbi/
-│   └── UPI_Transactions_Snowflake.pbix
-│
-├── sql/
-│   └── snowflake_setup.sql
-│
-├── images/
-│   ├── Screenshot 2026-10-04 145550.png
-│   └── Screenshot 2026-10-04 145752.png
-│
-└── README.md
-```
+- [powerbi](powerbi/) — Power BI report file
+- [sql](sql/) — Snowflake SQL setup scripts
+- [images](images/) — Dashboard screenshots
+- [UPI_Transactions_Snowflake.pdf](UPI_Transactions_Snowflake.pdf) — Dashboard PDF
+- [README.md](README.md) — Project documentation
 
 ## Dashboard Preview
 
